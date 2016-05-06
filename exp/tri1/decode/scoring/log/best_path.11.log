@@ -1,0 +1,1016 @@
+# lattice-best-path --lm-scale=11 --word-symbol-table=exp/tri1/graph/words.txt "ark:gunzip -c exp/tri1/decode/lat.*.gz|" ark,t:exp/tri1/decode/scoring/11.tra 
+# Started at Fri May  6 00:10:21 MSK 2016
+#
+lattice-best-path --lm-scale=11 --word-symbol-table=exp/tri1/graph/words.txt 'ark:gunzip -c exp/tri1/decode/lat.*.gz|' ark,t:exp/tri1/decode/scoring/11.tra 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_2_3, best cost 320.056 + 18936.6 = 19256.6 over 625 frames.
+mark_1_2_3 one two three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_2_4, best cost 303.667 + 15944.2 = 16247.9 over 601 frames.
+mark_1_2_4 one two four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_2_5, best cost 310.732 + 19116 = 19426.7 over 620 frames.
+mark_1_2_5 one two five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_2_6, best cost 286.79 + 16034 = 16320.8 over 614 frames.
+mark_1_2_6 one two six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_2_7, best cost 318.387 + 18420.6 = 18738.9 over 630 frames.
+mark_1_2_7 one two seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_2_8, best cost 296.159 + 17612.2 = 17908.3 over 620 frames.
+mark_1_2_8 one two eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_2_9, best cost 300.271 + 16452.7 = 16753 over 601 frames.
+mark_1_2_9 one two nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_3_2, best cost 337.453 + 20998.3 = 21335.7 over 625 frames.
+mark_1_3_2 one three two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_3_4, best cost 331.666 + 16501.6 = 16833.3 over 614 frames.
+mark_1_3_4 one three four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_3_5, best cost 357.534 + 19236 = 19593.5 over 633 frames.
+mark_1_3_5 one three five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_3_6, best cost 316.276 + 16229.5 = 16545.8 over 628 frames.
+mark_1_3_6 one three six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_3_7, best cost 347.496 + 20208.6 = 20556.1 over 643 frames.
+mark_1_3_7 one three seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_3_8, best cost 325.37 + 17857.8 = 18183.2 over 633 frames.
+mark_1_3_8 one three eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_3_9, best cost 346.992 + 16975 = 17322 over 614 frames.
+mark_1_3_9 one three nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_4_2, best cost 301.817 + 9943.01 = 10244.8 over 601 frames.
+mark_1_4_2 one four two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_4_3, best cost 331.347 + 10683.4 = 11014.7 over 614 frames.
+mark_1_4_3 one four three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_4_5, best cost 321.368 + 11612.6 = 11934 over 609 frames.
+mark_1_4_5 one four five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_4_6, best cost 298.42 + 8863.25 = 9161.67 over 604 frames.
+mark_1_4_6 one four six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_4_7, best cost 329.561 + 9442.66 = 9772.22 over 620 frames.
+mark_1_4_7 one four seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_4_8, best cost 283.913 + 7796.96 = 8080.87 over 609 frames.
+mark_1_4_8 one four eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_4_9, best cost 311.358 + 9710.42 = 10021.8 over 591 frames.
+mark_1_4_9 one four nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_5_2, best cost 327.236 + 18284 = 18611.2 over 620 frames.
+mark_1_5_2 one five two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_5_3, best cost 339.135 + 16858.8 = 17198 over 633 frames.
+mark_1_5_3 one five three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_5_4, best cost 322.483 + 13998.3 = 14320.8 over 609 frames.
+mark_1_5_4 one five four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_5_6, best cost 305.589 + 13900.9 = 14206.5 over 622 frames.
+mark_1_5_6 one five six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_5_7, best cost 336.672 + 15164.7 = 15501.4 over 638 frames.
+mark_1_5_7 one five seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_5_8, best cost 315.023 + 15537.6 = 15852.6 over 628 frames.
+mark_1_5_8 one five eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_5_9, best cost 336.896 + 15572.2 = 15909.1 over 609 frames.
+mark_1_5_9 one five nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_6_2, best cost 304.863 + 11389.9 = 11694.8 over 614 frames.
+mark_1_6_2 one six two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_6_3, best cost 334.582 + 11371.3 = 11705.9 over 628 frames.
+mark_1_6_3 one six three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_6_4, best cost 317.062 + 9105.82 = 9422.88 over 604 frames.
+mark_1_6_4 one six four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_6_5, best cost 324.141 + 12541.4 = 12865.6 over 622 frames.
+mark_1_6_5 one six five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_6_7, best cost 332.634 + 9674.18 = 10006.8 over 633 frames.
+mark_1_6_7 one six seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_6_8, best cost 286.986 + 9539.66 = 9826.64 over 622 frames.
+mark_1_6_8 one six eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_6_9, best cost 314.403 + 10340.8 = 10655.2 over 604 frames.
+mark_1_6_9 one six nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_7_2, best cost 317.669 + 13913.6 = 14231.2 over 630 frames.
+mark_1_7_2 one seven two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_7_3, best cost 346.917 + 14914.3 = 15261.2 over 643 frames.
+mark_1_7_3 one seven three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_7_4, best cost 329.498 + 12816.9 = 13146.4 over 620 frames.
+mark_1_7_4 one seven four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_7_5, best cost 337.531 + 14665.6 = 15003.1 over 638 frames.
+mark_1_7_5 one seven five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_7_6, best cost 313.874 + 14259.2 = 14573.1 over 633 frames.
+mark_1_7_6 one seven six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_7_8, best cost 299.395 + 13289.8 = 13589.2 over 638 frames.
+mark_1_7_8 one seven eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_7_9, best cost 326.95 + 14941.2 = 15268.1 over 620 frames.
+mark_1_7_9 one seven nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_8_2, best cost 293.923 + 15501.4 = 15795.3 over 620 frames.
+mark_1_8_2 one eight two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_8_3, best cost 323.472 + 13963.7 = 14287.2 over 633 frames.
+mark_1_8_3 one eight three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_8_4, best cost 306.709 + 10922.1 = 11228.8 over 609 frames.
+mark_1_8_4 one eight four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_8_5, best cost 313.927 + 14984.1 = 15298 over 628 frames.
+mark_1_8_5 one eight five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_8_6, best cost 290.056 + 11308.7 = 11598.8 over 622 frames.
+mark_1_8_6 one eight six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_8_7, best cost 321.028 + 12120.2 = 12441.2 over 638 frames.
+mark_1_8_7 one eight seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_8_9, best cost 303.583 + 12578.4 = 12882 over 609 frames.
+mark_1_8_9 one eight nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_9_2, best cost 299.158 + 12020.4 = 12319.6 over 601 frames.
+mark_1_9_2 one nine two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_9_3, best cost 328.688 + 12467.3 = 12796 over 614 frames.
+mark_1_9_3 one nine three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_9_4, best cost 311.358 + 9766.48 = 10077.8 over 591 frames.
+mark_1_9_4 one nine four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_9_5, best cost 318.709 + 13549 = 13867.7 over 609 frames.
+mark_1_9_5 one nine five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_9_6, best cost 295.788 + 10352.8 = 10648.6 over 604 frames.
+mark_1_9_6 one nine six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_9_7, best cost 326.902 + 11312.2 = 11639.1 over 620 frames.
+mark_1_9_7 one nine seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_1_9_8, best cost 281.254 + 9342.02 = 9623.28 over 609 frames.
+mark_1_9_8 one nine eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_1_3, best cost 321.78 + 21525.1 = 21846.9 over 625 frames.
+mark_2_1_3 two one three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_1_4, best cost 305.391 + 18740.9 = 19046.3 over 601 frames.
+mark_2_1_4 two one four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_1_5, best cost 312.555 + 21552.1 = 21864.7 over 620 frames.
+mark_2_1_5 two one five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_1_6, best cost 288.64 + 18236.3 = 18524.9 over 614 frames.
+mark_2_1_6 two one six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_1_7, best cost 320.143 + 20454.9 = 20775 over 630 frames.
+mark_2_1_7 two one seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_1_8, best cost 297.808 + 20058.1 = 20355.9 over 620 frames.
+mark_2_1_8 two one eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_1_9, best cost 301.995 + 19045.2 = 19347.2 over 601 frames.
+mark_2_1_9 two one nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_3_1, best cost 320.453 + 19604.4 = 19924.8 over 625 frames.
+mark_2_3_1 two three one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_3_4, best cost 318.506 + 20377.9 = 20696.4 over 620 frames.
+mark_2_3_4 two three four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_3_5, best cost 343.966 + 22036.2 = 22380.2 over 638 frames.
+mark_2_3_5 two three five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_3_6, best cost 302.805 + 21609.3 = 21912.1 over 633 frames.
+mark_2_3_6 two three six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_3_7, best cost 333.735 + 22969.7 = 23303.5 over 648 frames.
+mark_2_3_7 two three seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_3_8, best cost 288.415 + 20618.6 = 20907 over 638 frames.
+mark_2_3_8 two three eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_3_9, best cost 333.385 + 21567.3 = 21900.7 over 620 frames.
+mark_2_3_9 two three nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_4_1, best cost 305.184 + 15306.6 = 15611.8 over 601 frames.
+mark_2_4_1 two four one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_4_3, best cost 319.285 + 17010 = 17329.2 over 620 frames.
+mark_2_4_3 two four three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_4_5, best cost 309.872 + 18567.4 = 18877.2 over 614 frames.
+mark_2_4_5 two four five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_4_6, best cost 286.163 + 15006.4 = 15292.5 over 609 frames.
+mark_2_4_6 two four six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_4_7, best cost 317.194 + 15786.2 = 16103.4 over 625 frames.
+mark_2_4_7 two four seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_4_8, best cost 271.537 + 15877.1 = 16148.7 over 614 frames.
+mark_2_4_8 two four eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_4_9, best cost 298.982 + 16801.1 = 17100.1 over 596 frames.
+mark_2_4_9 two four nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_5_1, best cost 314.032 + 21818.2 = 22132.2 over 620 frames.
+mark_2_5_1 two five one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_5_3, best cost 326.385 + 24702.4 = 25028.8 over 638 frames.
+mark_2_5_3 two five three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_5_4, best cost 308.988 + 22747.9 = 23056.9 over 614 frames.
+mark_2_5_4 two five four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_5_6, best cost 293.599 + 22508.5 = 22802.1 over 628 frames.
+mark_2_5_6 two five six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_5_7, best cost 324.925 + 26564.2 = 26889.1 over 643 frames.
+mark_2_5_7 two five seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_5_8, best cost 302.692 + 23976.3 = 24279 over 633 frames.
+mark_2_5_8 two five eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_5_9, best cost 324.552 + 23248.5 = 23573.1 over 614 frames.
+mark_2_5_9 two five nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_6_1, best cost 307.118 + 15410.7 = 15717.8 over 614 frames.
+mark_2_6_1 two six one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_6_3, best cost 321.621 + 18341.6 = 18663.2 over 633 frames.
+mark_2_6_3 two six three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_6_4, best cost 304.818 + 15526.4 = 15831.2 over 609 frames.
+mark_2_6_4 two six four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_6_5, best cost 312.036 + 19506.1 = 19818.1 over 628 frames.
+mark_2_6_5 two six five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_6_7, best cost 319.129 + 16569.4 = 16888.5 over 638 frames.
+mark_2_6_7 two six seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_6_8, best cost 297.471 + 17293.4 = 17590.8 over 628 frames.
+mark_2_6_8 two six eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_6_9, best cost 301.732 + 17129.3 = 17431.1 over 609 frames.
+mark_2_6_9 two six nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_7_1, best cost 317.76 + 13690.1 = 14007.8 over 630 frames.
+mark_2_7_1 two seven one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_7_3, best cost 333.272 + 15667.8 = 16001.1 over 648 frames.
+mark_2_7_3 two seven three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_7_4, best cost 315.942 + 13743.3 = 14059.2 over 625 frames.
+mark_2_7_4 two seven four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_7_5, best cost 323.293 + 17465.7 = 17789 over 643 frames.
+mark_2_7_5 two seven five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_7_6, best cost 300.317 + 14674 = 14974.3 over 638 frames.
+mark_2_7_6 two seven six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_7_8, best cost 285.857 + 13569 = 13854.9 over 643 frames.
+mark_2_7_8 two seven eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_7_9, best cost 313.283 + 16011.1 = 16324.4 over 625 frames.
+mark_2_7_9 two seven nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_8_1, best cost 299.377 + 18737.3 = 19036.7 over 620 frames.
+mark_2_8_1 two eight one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_8_3, best cost 311.73 + 21975.3 = 22287 over 638 frames.
+mark_2_8_3 two eight three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_8_4, best cost 294.333 + 20239.2 = 20533.5 over 614 frames.
+mark_2_8_4 two eight four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_8_5, best cost 302.679 + 22387.3 = 22690 over 633 frames.
+mark_2_8_5 two eight five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_8_6, best cost 279.007 + 19591.1 = 19870.1 over 628 frames.
+mark_2_8_6 two eight six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_8_7, best cost 310.333 + 23673.2 = 23983.5 over 643 frames.
+mark_2_8_7 two eight seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_8_9, best cost 292.231 + 20425.1 = 20717.3 over 614 frames.
+mark_2_8_9 two eight nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_9_1, best cost 302.058 + 16181.7 = 16483.8 over 601 frames.
+mark_2_9_1 two nine one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_9_3, best cost 316.035 + 18748.7 = 19064.7 over 620 frames.
+mark_2_9_3 two nine three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_9_4, best cost 299.828 + 16387.6 = 16687.5 over 596 frames.
+mark_2_9_4 two nine four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_9_5, best cost 306.01 + 20341.9 = 20647.9 over 614 frames.
+mark_2_9_5 two nine five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_9_6, best cost 283.065 + 16628.3 = 16911.3 over 609 frames.
+mark_2_9_6 two nine six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_9_7, best cost 314.068 + 17283.9 = 17598 over 625 frames.
+mark_2_9_7 two nine seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_2_9_8, best cost 268.411 + 17274.9 = 17543.3 over 614 frames.
+mark_2_9_8 two nine eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_1_2, best cost 321.737 + 24225.4 = 24547.1 over 625 frames.
+mark_3_1_2 three one two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_1_4, best cost 333.378 + 19140.2 = 19473.6 over 614 frames.
+mark_3_1_4 three one four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_1_5, best cost 341.724 + 21352.9 = 21694.6 over 633 frames.
+mark_3_1_5 three one five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_1_6, best cost 317.926 + 19301 = 19618.9 over 628 frames.
+mark_3_1_6 three one six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_1_7, best cost 349.248 + 23228.9 = 23578.1 over 643 frames.
+mark_3_1_7 three one seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_1_8, best cost 327.069 + 20458.1 = 20785.1 over 633 frames.
+mark_3_1_8 three one eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_1_9, best cost 331.276 + 19531 = 19862.2 over 614 frames.
+mark_3_1_9 three one nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_2_1, best cost 337.404 + 22417.4 = 22754.8 over 625 frames.
+mark_3_2_1 three two one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_2_4, best cost 335.586 + 23442.2 = 23777.8 over 620 frames.
+mark_3_2_4 three two four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_2_5, best cost 343.619 + 24642.8 = 24986.4 over 638 frames.
+mark_3_2_5 three two five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_2_6, best cost 319.934 + 24175.4 = 24495.4 over 633 frames.
+mark_3_2_6 three two six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_2_7, best cost 350.859 + 26050.9 = 26401.7 over 648 frames.
+mark_3_2_7 three two seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_2_8, best cost 305.482 + 23454.5 = 23760 over 638 frames.
+mark_3_2_8 three two eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_2_9, best cost 333.038 + 24270.5 = 24603.5 over 620 frames.
+mark_3_2_9 three two nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_4_1, best cost 334.487 + 15864.8 = 16199.3 over 614 frames.
+mark_3_4_1 three four one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_4_2, best cost 319.361 + 20299.1 = 20618.5 over 620 frames.
+mark_3_4_2 three four two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_4_5, best cost 339.364 + 19815.9 = 20155.2 over 628 frames.
+mark_3_4_5 three four five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_4_6, best cost 315.494 + 16158.8 = 16474.3 over 622 frames.
+mark_3_4_6 three four six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_4_7, best cost 346.497 + 17232 = 17578.5 over 638 frames.
+mark_3_4_7 three four seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_4_8, best cost 324.81 + 17144.1 = 17468.9 over 628 frames.
+mark_3_4_8 three four eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_4_9, best cost 329.02 + 16851 = 17180 over 609 frames.
+mark_3_4_9 three four nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_5_1, best cost 360.89 + 21875.1 = 22236 over 633 frames.
+mark_3_5_1 three five one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_5_2, best cost 361.617 + 26554.8 = 26916.4 over 638 frames.
+mark_3_5_2 three five two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_5_4, best cost 356.673 + 23573.5 = 23930.2 over 628 frames.
+mark_3_5_4 three five four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_5_6, best cost 340.456 + 23485 = 23825.4 over 641 frames.
+mark_3_5_6 three five six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_5_7, best cost 371.809 + 28482.4 = 28854.2 over 656 frames.
+mark_3_5_7 three five seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_5_8, best cost 349.423 + 24176 = 24525.5 over 646 frames.
+mark_3_5_8 three five eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_5_9, best cost 371.327 + 23647.2 = 24018.6 over 628 frames.
+mark_3_5_9 three five nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_6_1, best cost 336.518 + 17081.4 = 17417.9 over 628 frames.
+mark_3_6_1 three six one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_6_2, best cost 321.135 + 21908.4 = 22229.6 over 633 frames.
+mark_3_6_2 three six two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_6_4, best cost 333.961 + 17261.6 = 17595.6 over 622 frames.
+mark_3_6_4 three six four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_6_5, best cost 341.306 + 21052.5 = 21393.8 over 641 frames.
+mark_3_6_5 three six five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_6_7, best cost 348.432 + 18092.3 = 18440.7 over 651 frames.
+mark_3_6_7 three six seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_6_8, best cost 326.61 + 18300.1 = 18626.7 over 641 frames.
+mark_3_6_8 three six eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_6_9, best cost 330.795 + 18164.7 = 18495.5 over 622 frames.
+mark_3_6_9 three six nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_7_1, best cost 346.907 + 15327.1 = 15674 over 643 frames.
+mark_3_7_1 three seven one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_7_2, best cost 332.978 + 16953.2 = 17286.2 over 648 frames.
+mark_3_7_2 three seven two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_7_4, best cost 345.089 + 14952.3 = 15297.4 over 638 frames.
+mark_3_7_4 three seven four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_7_5, best cost 352.096 + 18462.2 = 18814.3 over 656 frames.
+mark_3_7_5 three seven five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_7_6, best cost 329.494 + 15520.8 = 15850.3 over 651 frames.
+mark_3_7_6 three seven six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_7_8, best cost 314.985 + 15007.1 = 15322.1 over 656 frames.
+mark_3_7_8 three seven eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_7_9, best cost 342.386 + 16596.9 = 16939.3 over 638 frames.
+mark_3_7_9 three seven nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_8_1, best cost 328.556 + 19221.5 = 19550.1 over 633 frames.
+mark_3_8_1 three eight one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_8_2, best cost 311.871 + 23924.7 = 24236.6 over 638 frames.
+mark_3_8_2 three eight two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_8_4, best cost 324.339 + 20548.2 = 20872.5 over 628 frames.
+mark_3_8_4 three eight four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_8_5, best cost 331.858 + 22437 = 22768.9 over 646 frames.
+mark_3_8_5 three eight five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_8_6, best cost 308.186 + 20930.3 = 21238.5 over 641 frames.
+mark_3_8_6 three eight six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_8_7, best cost 339.589 + 26036.7 = 26376.3 over 656 frames.
+mark_3_8_7 three eight seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_8_9, best cost 321.454 + 21159.3 = 21480.8 over 628 frames.
+mark_3_8_9 three eight nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_9_1, best cost 348.788 + 16773 = 17121.8 over 614 frames.
+mark_3_9_1 three nine one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_9_2, best cost 333.662 + 21509.2 = 21842.9 over 620 frames.
+mark_3_9_2 three nine two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_9_4, best cost 346.448 + 17334.9 = 17681.3 over 609 frames.
+mark_3_9_4 three nine four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_9_5, best cost 353.666 + 20972.4 = 21326.1 over 628 frames.
+mark_3_9_5 three nine five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_9_6, best cost 329.795 + 17088.3 = 17418.1 over 622 frames.
+mark_3_9_6 three nine six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_9_7, best cost 360.799 + 17656.1 = 18016.9 over 638 frames.
+mark_3_9_7 three nine seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_3_9_8, best cost 339.086 + 18261.9 = 18601 over 628 frames.
+mark_3_9_8 three nine eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_1_2, best cost 301.817 + 10624.1 = 10925.9 over 601 frames.
+mark_4_1_2 four one two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_1_3, best cost 331.347 + 10398.2 = 10729.5 over 614 frames.
+mark_4_1_3 four one three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_1_5, best cost 321.368 + 11382.9 = 11704.3 over 609 frames.
+mark_4_1_5 four one five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_1_6, best cost 298.392 + 8438.35 = 8736.74 over 604 frames.
+mark_4_1_6 four one six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_1_7, best cost 329.498 + 9571.91 = 9901.41 over 620 frames.
+mark_4_1_7 four one seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_1_8, best cost 283.913 + 7907.46 = 8191.37 over 609 frames.
+mark_4_1_8 four one eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_1_9, best cost 311.358 + 9954.7 = 10266.1 over 591 frames.
+mark_4_1_9 four one nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_2_1, best cost 303.981 + 12580 = 12884 over 601 frames.
+mark_4_2_1 four two one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_2_3, best cost 317.958 + 14621.6 = 14939.6 over 620 frames.
+mark_4_2_3 four two three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_2_5, best cost 308.67 + 16324.7 = 16633.4 over 614 frames.
+mark_4_2_5 four two five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_2_6, best cost 284.974 + 12727.8 = 13012.8 over 609 frames.
+mark_4_2_6 four two six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_2_7, best cost 315.986 + 13804.5 = 14120.5 over 625 frames.
+mark_4_2_7 four two seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_2_8, best cost 270.335 + 13476.5 = 13746.9 over 614 frames.
+mark_4_2_8 four two eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_2_9, best cost 297.78 + 14397.6 = 14695.4 over 596 frames.
+mark_4_2_9 four two nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_3_1, best cost 333.173 + 12822.1 = 13155.3 over 614 frames.
+mark_4_3_1 four three one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_3_2, best cost 335.586 + 17003.7 = 17339.3 over 620 frames.
+mark_4_3_2 four three two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_3_5, best cost 355.589 + 16708.4 = 17064 over 628 frames.
+mark_4_3_5 four three five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_3_6, best cost 314.089 + 13092.7 = 13406.8 over 622 frames.
+mark_4_3_6 four three six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_3_7, best cost 345.089 + 13207.5 = 13552.6 over 638 frames.
+mark_4_3_7 four three seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_3_8, best cost 323.484 + 13899.9 = 14223.4 over 628 frames.
+mark_4_3_8 four three eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_3_9, best cost 345.246 + 14255.4 = 14600.6 over 609 frames.
+mark_4_3_9 four three nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_5_1, best cost 321.47 + 12953 = 13274.4 over 609 frames.
+mark_4_5_1 four five one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_5_2, best cost 325.102 + 14604.8 = 14929.9 over 614 frames.
+mark_4_5_2 four five two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_5_3, best cost 337.171 + 15204 = 15541.2 over 628 frames.
+mark_4_5_3 four five three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_5_6, best cost 304.031 + 12581.9 = 12885.9 over 617 frames.
+mark_4_5_6 four five six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_5_7, best cost 335.101 + 13369.7 = 13704.8 over 633 frames.
+mark_4_5_7 four five seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_5_8, best cost 289.56 + 12622.4 = 12911.9 over 622 frames.
+mark_4_5_8 four five eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_5_9, best cost 334.642 + 13864.7 = 14199.3 over 604 frames.
+mark_4_5_9 four five nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_6_1, best cost 317.089 + 9419.45 = 9736.54 over 604 frames.
+mark_4_6_1 four six one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_6_2, best cost 303.072 + 12213.8 = 12516.9 over 609 frames.
+mark_4_6_2 four six two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_6_3, best cost 332.601 + 12199.3 = 12531.9 over 622 frames.
+mark_4_6_3 four six three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_6_5, best cost 322.623 + 13401.2 = 13723.8 over 617 frames.
+mark_4_6_5 four six five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_6_7, best cost 330.828 + 12281.9 = 12612.7 over 628 frames.
+mark_4_6_7 four six seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_6_8, best cost 285.167 + 10057.4 = 10342.5 over 617 frames.
+mark_4_6_8 four six eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_6_9, best cost 312.612 + 12108.5 = 12421.1 over 599 frames.
+mark_4_6_9 four six nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_7_1, best cost 332.784 + 14767.5 = 15100.3 over 620 frames.
+mark_4_7_1 four seven one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_7_2, best cost 316.21 + 20948.7 = 21264.9 over 625 frames.
+mark_4_7_2 four seven two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_7_3, best cost 345.137 + 17712.2 = 18057.3 over 638 frames.
+mark_4_7_3 four seven three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_7_5, best cost 336.18 + 18525.2 = 18861.4 over 633 frames.
+mark_4_7_5 four seven five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_7_6, best cost 312.386 + 15336 = 15648.4 over 628 frames.
+mark_4_7_6 four seven six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_7_8, best cost 321.431 + 17269.2 = 17590.6 over 633 frames.
+mark_4_7_8 four seven eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_7_9, best cost 325.682 + 16091.8 = 16417.4 over 614 frames.
+mark_4_7_9 four seven nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_8_1, best cost 305.507 + 9422.86 = 9728.37 over 609 frames.
+mark_4_8_1 four eight one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_8_2, best cost 291.489 + 10932.6 = 11224.1 over 614 frames.
+mark_4_8_2 four eight two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_8_3, best cost 321.208 + 11286.8 = 11608 over 628 frames.
+mark_4_8_3 four eight three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_8_5, best cost 310.74 + 12436.9 = 12747.7 over 622 frames.
+mark_4_8_5 four eight five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_8_6, best cost 288.091 + 9314.63 = 9602.73 over 617 frames.
+mark_4_8_6 four eight six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_8_7, best cost 319.264 + 9539.21 = 9858.47 over 633 frames.
+mark_4_8_7 four eight seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_8_9, best cost 301.029 + 10431.2 = 10732.3 over 604 frames.
+mark_4_8_9 four eight nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_9_1, best cost 311.358 + 12503.1 = 12814.4 over 591 frames.
+mark_4_9_1 four nine one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_9_2, best cost 297.678 + 14499.6 = 14797.3 over 596 frames.
+mark_4_9_2 four nine two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_9_3, best cost 326.87 + 15389.4 = 15716.3 over 609 frames.
+mark_4_9_3 four nine three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_9_5, best cost 316.891 + 15668.2 = 15985.1 over 604 frames.
+mark_4_9_5 four nine five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_9_6, best cost 293.97 + 13843.3 = 14137.2 over 599 frames.
+mark_4_9_6 four nine six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_9_7, best cost 324.876 + 15107.9 = 15432.8 over 614 frames.
+mark_4_9_7 four nine seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_4_9_8, best cost 279.436 + 13350.6 = 13630 over 604 frames.
+mark_4_9_8 four nine eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_1_2, best cost 309.886 + 19712.6 = 20022.5 over 620 frames.
+mark_5_1_2 five one two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_1_3, best cost 339.435 + 18361.9 = 18701.3 over 633 frames.
+mark_5_1_3 five one three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_1_4, best cost 322.672 + 15614.1 = 15936.8 over 609 frames.
+mark_5_1_4 five one four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_1_6, best cost 305.894 + 15917.6 = 16223.5 over 622 frames.
+mark_5_1_6 five one six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_1_7, best cost 337.023 + 16127.9 = 16464.9 over 638 frames.
+mark_5_1_7 five one seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_1_8, best cost 315.336 + 16749.6 = 17064.9 over 628 frames.
+mark_5_1_8 five one eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_1_9, best cost 319.546 + 17125.9 = 17445.4 over 609 frames.
+mark_5_1_9 five one nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_2_1, best cost 330.79 + 20494.8 = 20825.6 over 620 frames.
+mark_5_2_1 five two one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_2_3, best cost 343.143 + 23101.4 = 23444.5 over 638 frames.
+mark_5_2_3 five two three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_2_4, best cost 325.746 + 21297.7 = 21623.4 over 614 frames.
+mark_5_2_4 five two four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_2_6, best cost 310.378 + 20936.6 = 21247 over 628 frames.
+mark_5_2_6 five two six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_2_7, best cost 341.74 + 25073.7 = 25415.4 over 643 frames.
+mark_5_2_7 five two seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_2_8, best cost 319.437 + 22152.8 = 22472.2 over 633 frames.
+mark_5_2_8 five two eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_2_9, best cost 323.645 + 21769.1 = 22092.8 over 614 frames.
+mark_5_2_9 five two nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_3_1, best cost 342.345 + 19315.3 = 19657.6 over 633 frames.
+mark_5_3_1 five three one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_3_2, best cost 343.088 + 23833.6 = 24176.7 over 638 frames.
+mark_5_3_2 five three two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_3_4, best cost 338.127 + 20503.9 = 20842 over 628 frames.
+mark_5_3_4 five three four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_3_6, best cost 321.911 + 21274 = 21595.9 over 641 frames.
+mark_5_3_6 five three six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_3_7, best cost 353.175 + 26063.6 = 26416.8 over 656 frames.
+mark_5_3_7 five three seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_3_8, best cost 331.005 + 21738 = 22069 over 646 frames.
+mark_5_3_8 five three eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_3_9, best cost 352.803 + 21738.7 = 22091.5 over 628 frames.
+mark_5_3_9 five three nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_4_1, best cost 321.47 + 13294.1 = 13615.6 over 609 frames.
+mark_5_4_1 five four one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_4_2, best cost 307.452 + 15406 = 15713.4 over 614 frames.
+mark_5_4_2 five four two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_4_3, best cost 337.171 + 15713.6 = 16050.7 over 628 frames.
+mark_5_4_3 five four three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_4_6, best cost 304.082 + 13452.3 = 13756.4 over 617 frames.
+mark_5_4_6 five four six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_4_7, best cost 335.228 + 13306.6 = 13641.8 over 633 frames.
+mark_5_4_7 five four seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_4_8, best cost 289.548 + 13518 = 13807.6 over 622 frames.
+mark_5_4_8 five four eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_4_9, best cost 316.992 + 14621.3 = 14938.2 over 604 frames.
+mark_5_4_9 five four nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_6_1, best cost 324.439 + 14455 = 14779.5 over 622 frames.
+mark_5_6_1 five six one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_6_2, best cost 311.077 + 16171.7 = 16482.8 over 628 frames.
+mark_5_6_2 five six two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_6_3, best cost 340.18 + 16053.4 = 16393.5 over 641 frames.
+mark_5_6_3 five six three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_6_4, best cost 322.661 + 13726.2 = 14048.9 over 617 frames.
+mark_5_6_4 five six four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_6_7, best cost 338.196 + 14705.9 = 15044.1 over 646 frames.
+mark_5_6_7 five six seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_6_8, best cost 292.557 + 14921 = 15213.6 over 635 frames.
+mark_5_6_8 five six eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_6_9, best cost 319.961 + 15725.4 = 16045.4 over 617 frames.
+mark_5_6_9 five six nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_7_1, best cost 336.919 + 14485.3 = 14822.2 over 638 frames.
+mark_5_7_1 five seven one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_7_2, best cost 323.284 + 17352.2 = 17675.5 over 643 frames.
+mark_5_7_2 five seven two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_7_3, best cost 352.432 + 17733.7 = 18086.1 over 656 frames.
+mark_5_7_3 five seven three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_7_4, best cost 335.101 + 16194 = 16529.1 over 633 frames.
+mark_5_7_4 five seven four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_7_6, best cost 319.477 + 16725.8 = 17045.3 over 646 frames.
+mark_5_7_6 five seven six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_7_8, best cost 304.997 + 15351.4 = 15656.4 over 651 frames.
+mark_5_7_8 five seven eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_7_9, best cost 332.553 + 17224 = 17556.6 over 633 frames.
+mark_5_7_9 five seven nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_8_1, best cost 314.873 + 16971.2 = 17286.1 over 628 frames.
+mark_5_8_1 five eight one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_8_2, best cost 299.571 + 22349.6 = 22649.2 over 633 frames.
+mark_5_8_2 five eight two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_8_3, best cost 329.237 + 20852.3 = 21181.5 over 646 frames.
+mark_5_8_3 five eight three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_8_4, best cost 312.356 + 17097.5 = 17409.9 over 622 frames.
+mark_5_8_4 five eight four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_8_6, best cost 295.704 + 16971.3 = 17267 over 635 frames.
+mark_5_8_6 five eight six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_8_7, best cost 326.707 + 17946.7 = 18273.4 over 651 frames.
+mark_5_8_7 five eight seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_8_9, best cost 309.23 + 18118.5 = 18427.7 over 622 frames.
+mark_5_8_9 five eight nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_9_1, best cost 336.461 + 15504.1 = 15840.6 over 609 frames.
+mark_5_9_1 five nine one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_9_2, best cost 322.443 + 16994.9 = 17317.3 over 614 frames.
+mark_5_9_2 five nine two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_9_3, best cost 352.162 + 17716.1 = 18068.2 over 628 frames.
+mark_5_9_3 five nine three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_9_4, best cost 334.642 + 14907.7 = 15242.4 over 604 frames.
+mark_5_9_4 five nine four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_9_6, best cost 319.045 + 15277.1 = 15596.2 over 617 frames.
+mark_5_9_6 five nine six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_9_7, best cost 350.187 + 15595 = 15945.2 over 633 frames.
+mark_5_9_7 five nine seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_5_9_8, best cost 304.539 + 15380.9 = 15685.4 over 622 frames.
+mark_5_9_8 five nine eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_1_2, best cost 286.221 + 9192.24 = 9478.46 over 614 frames.
+mark_6_1_2 six one two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_1_3, best cost 315.94 + 9803.32 = 10119.3 over 628 frames.
+mark_6_1_3 six one three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_1_4, best cost 298.42 + 6669.75 = 6968.17 over 604 frames.
+mark_6_1_4 six one four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_1_5, best cost 305.471 + 10806.2 = 11111.6 over 622 frames.
+mark_6_1_5 six one five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_1_7, best cost 313.933 + 7277.38 = 7591.31 over 633 frames.
+mark_6_1_7 six one seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_1_8, best cost 268.316 + 7310.56 = 7578.87 over 622 frames.
+mark_6_1_8 six one eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_1_9, best cost 295.761 + 8573.45 = 8869.21 over 604 frames.
+mark_6_1_9 six one nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_2_1, best cost 288.384 + 11664.5 = 11952.9 over 614 frames.
+mark_6_2_1 six two one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_2_3, best cost 302.807 + 14616.8 = 14919.6 over 633 frames.
+mark_6_2_3 six two three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_2_4, best cost 286.044 + 11561.3 = 11847.4 over 609 frames.
+mark_6_2_4 six two four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_2_5, best cost 293.262 + 15361.4 = 15654.7 over 628 frames.
+mark_6_2_5 six two five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_2_7, best cost 300.332 + 12603.7 = 12904 over 638 frames.
+mark_6_2_7 six two seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_2_8, best cost 278.708 + 12651.1 = 12929.8 over 628 frames.
+mark_6_2_8 six two eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_2_9, best cost 282.918 + 12877.8 = 13160.7 over 609 frames.
+mark_6_2_9 six two nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_3_1, best cost 317.753 + 11862.9 = 12180.6 over 628 frames.
+mark_6_3_1 six three one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_3_2, best cost 319.989 + 17117.2 = 17437.1 over 633 frames.
+mark_6_3_2 six three two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_3_4, best cost 315.347 + 11855.9 = 12171.2 over 622 frames.
+mark_6_3_4 six three four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_3_5, best cost 339.993 + 16369.2 = 16709.2 over 641 frames.
+mark_6_3_5 six three five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_3_7, best cost 329.492 + 12948.5 = 13278 over 651 frames.
+mark_6_3_7 six three seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_3_8, best cost 307.887 + 13623.8 = 13931.7 over 641 frames.
+mark_6_3_8 six three eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_3_9, best cost 329.649 + 13301.1 = 13630.7 over 622 frames.
+mark_6_3_9 six three nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_4_1, best cost 298.42 + 6883.86 = 7182.28 over 604 frames.
+mark_6_4_1 six four one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_4_2, best cost 284.402 + 9374.38 = 9658.78 over 609 frames.
+mark_6_4_2 six four two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_4_3, best cost 313.932 + 9393.55 = 9707.48 over 622 frames.
+mark_6_4_3 six four three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_4_5, best cost 303.953 + 11230.3 = 11534.2 over 617 frames.
+mark_6_4_5 six four five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_4_7, best cost 312.115 + 9703.93 = 10016 over 628 frames.
+mark_6_4_7 six four seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_4_8, best cost 266.498 + 7502.03 = 7768.53 over 617 frames.
+mark_6_4_8 six four eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_4_9, best cost 293.943 + 9573.49 = 9867.43 over 599 frames.
+mark_6_4_9 six four nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_5_1, best cost 305.873 + 11817.1 = 12123 over 622 frames.
+mark_6_5_1 six five one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_5_2, best cost 310.121 + 14361.8 = 14671.9 over 628 frames.
+mark_6_5_2 six five two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_5_3, best cost 321.574 + 14183.8 = 14505.4 over 641 frames.
+mark_6_5_3 six five three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_5_4, best cost 304.055 + 11102.8 = 11406.9 over 617 frames.
+mark_6_5_4 six five four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_5_7, best cost 319.549 + 11997.8 = 12317.3 over 646 frames.
+mark_6_5_7 six five seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_5_8, best cost 273.964 + 12649.3 = 12923.2 over 635 frames.
+mark_6_5_8 six five eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_5_9, best cost 319.046 + 13128.7 = 13447.8 over 617 frames.
+mark_6_5_9 six five nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_7_1, best cost 317.25 + 12463 = 12780.2 over 633 frames.
+mark_6_7_1 six seven one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_7_2, best cost 300.565 + 17017.6 = 17318.1 over 638 frames.
+mark_6_7_2 six seven two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_7_3, best cost 329.571 + 15422.7 = 15752.3 over 651 frames.
+mark_6_7_3 six seven three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_7_4, best cost 313.001 + 14031.9 = 14344.9 over 628 frames.
+mark_6_7_4 six seven four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_7_5, best cost 320.467 + 15846 = 16166.5 over 646 frames.
+mark_6_7_5 six seven five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_7_8, best cost 305.866 + 14940.3 = 15246.2 over 646 frames.
+mark_6_7_8 six seven eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_7_9, best cost 310.116 + 14647.8 = 14957.9 over 628 frames.
+mark_6_7_9 six seven nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_8_1, best cost 289.91 + 7891.3 = 8181.21 over 622 frames.
+mark_6_8_1 six eight one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_8_2, best cost 276.508 + 9433.42 = 9709.92 over 628 frames.
+mark_6_8_2 six eight two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_8_3, best cost 305.611 + 9966.35 = 10272 over 641 frames.
+mark_6_8_3 six eight three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_8_4, best cost 288.092 + 6841.64 = 7129.73 over 617 frames.
+mark_6_8_4 six eight four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_8_5, best cost 295.143 + 11105.5 = 11400.6 over 635 frames.
+mark_6_8_5 six eight five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_8_7, best cost 303.605 + 8013.26 = 8316.86 over 646 frames.
+mark_6_8_7 six eight seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_8_9, best cost 285.432 + 8956.99 = 9242.42 over 617 frames.
+mark_6_8_9 six eight nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_9_1, best cost 295.761 + 9076.65 = 9372.41 over 604 frames.
+mark_6_9_1 six nine one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_9_2, best cost 281.743 + 12084.5 = 12366.3 over 609 frames.
+mark_6_9_2 six nine two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_9_3, best cost 311.273 + 11927 = 12238.3 over 622 frames.
+mark_6_9_3 six nine three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_9_4, best cost 293.943 + 10410 = 10704 over 599 frames.
+mark_6_9_4 six nine four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_9_5, best cost 301.294 + 12845.3 = 13146.6 over 617 frames.
+mark_6_9_5 six nine five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_9_7, best cost 309.487 + 11681.8 = 11991.2 over 628 frames.
+mark_6_9_7 six nine seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_6_9_8, best cost 263.839 + 9513.49 = 9777.33 over 617 frames.
+mark_6_9_8 six nine eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_1_2, best cost 300.105 + 17673.3 = 17973.4 over 630 frames.
+mark_7_1_2 seven one two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_1_3, best cost 329.297 + 18666.1 = 18995.4 over 643 frames.
+mark_7_1_3 seven one three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_1_4, best cost 311.966 + 16838.5 = 17150.4 over 620 frames.
+mark_7_1_4 seven one four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_1_5, best cost 319.999 + 18449.1 = 18769.1 over 638 frames.
+mark_7_1_5 seven one five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_1_6, best cost 296.369 + 18178.8 = 18475.1 over 633 frames.
+mark_7_1_6 seven one six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_1_8, best cost 281.863 + 16673 = 16954.9 over 638 frames.
+mark_7_1_8 seven one eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_1_9, best cost 309.418 + 18308.9 = 18618.3 over 620 frames.
+mark_7_1_9 seven one nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_2_1, best cost 297.1 + 16299.1 = 16596.2 over 630 frames.
+mark_7_2_1 seven two one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_2_3, best cost 312.612 + 18326 = 18638.6 over 648 frames.
+mark_7_2_3 seven two three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_2_4, best cost 295.282 + 16181.9 = 16477.1 over 625 frames.
+mark_7_2_4 seven two four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_2_5, best cost 302.633 + 19836 = 20138.6 over 643 frames.
+mark_7_2_5 seven two five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_2_6, best cost 279.643 + 17084.2 = 17363.8 over 638 frames.
+mark_7_2_6 seven two six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_2_8, best cost 265.178 + 16074.5 = 16339.7 over 643 frames.
+mark_7_2_8 seven two eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_2_9, best cost 292.623 + 17836.2 = 18128.9 over 625 frames.
+mark_7_2_9 seven two nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_3_1, best cost 326.239 + 15592.4 = 15918.7 over 643 frames.
+mark_7_3_1 seven three one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_3_2, best cost 329.666 + 17617.6 = 17947.3 over 648 frames.
+mark_7_3_2 seven three two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_3_4, best cost 324.421 + 15807.9 = 16132.3 over 638 frames.
+mark_7_3_4 seven three four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_3_5, best cost 349.217 + 19100.8 = 19450 over 656 frames.
+mark_7_3_5 seven three five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_3_6, best cost 308.76 + 16009.7 = 16318.5 over 651 frames.
+mark_7_3_6 seven three six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_3_8, best cost 294.33 + 15296.7 = 15591.1 over 656 frames.
+mark_7_3_8 seven three eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_3_9, best cost 339.206 + 16982.7 = 17321.9 over 638 frames.
+mark_7_3_9 seven three nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_4_1, best cost 312.821 + 18956.1 = 19269 over 620 frames.
+mark_7_4_1 seven four one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_4_2, best cost 296.136 + 24305.4 = 24601.6 over 625 frames.
+mark_7_4_2 seven four two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_4_3, best cost 325.174 + 21583.6 = 21908.7 over 638 frames.
+mark_7_4_3 seven four three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_4_5, best cost 316.217 + 22567.7 = 22883.9 over 633 frames.
+mark_7_4_5 seven four five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_4_6, best cost 292.424 + 19503.7 = 19796.1 over 628 frames.
+mark_7_4_6 seven four six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_4_8, best cost 301.468 + 21219.9 = 21521.4 over 633 frames.
+mark_7_4_8 seven four eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_4_9, best cost 305.676 + 20200.5 = 20506.1 over 614 frames.
+mark_7_4_9 seven four nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_5_1, best cost 317.188 + 16652 = 16969.2 over 638 frames.
+mark_7_5_1 seven five one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_5_2, best cost 321.159 + 19417.2 = 19738.3 over 643 frames.
+mark_7_5_2 seven five two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_5_3, best cost 332.679 + 19700.8 = 20033.5 over 656 frames.
+mark_7_5_3 seven five three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_5_4, best cost 315.348 + 18035.5 = 18350.8 over 633 frames.
+mark_7_5_4 seven five four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_5_6, best cost 299.783 + 18510.2 = 18809.9 over 646 frames.
+mark_7_5_6 seven five six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_5_8, best cost 285.257 + 17692.2 = 17977.5 over 651 frames.
+mark_7_5_8 seven five eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_5_9, best cost 330.472 + 19545.5 = 19876 over 633 frames.
+mark_7_5_9 seven five nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_6_1, best cost 315.378 + 18469.3 = 18784.6 over 633 frames.
+mark_7_6_1 seven six one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_6_2, best cost 298.626 + 23220.2 = 23518.8 over 638 frames.
+mark_7_6_2 seven six two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_6_3, best cost 327.663 + 21403.5 = 21731.1 over 651 frames.
+mark_7_6_3 seven six three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_6_4, best cost 311.093 + 19908.7 = 20219.8 over 628 frames.
+mark_7_6_4 seven six four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_6_5, best cost 318.612 + 22177.2 = 22495.8 over 646 frames.
+mark_7_6_5 seven six five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_6_8, best cost 303.958 + 21161 = 21464.9 over 646 frames.
+mark_7_6_8 seven six eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_6_9, best cost 308.341 + 20335.3 = 20643.7 over 628 frames.
+mark_7_6_9 seven six nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_8_1, best cost 302.432 + 15863.8 = 16166.3 over 638 frames.
+mark_7_8_1 seven eight one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_8_2, best cost 288.753 + 18383.2 = 18671.9 over 643 frames.
+mark_7_8_2 seven eight two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_8_3, best cost 317.944 + 18731.1 = 19049 over 656 frames.
+mark_7_8_3 seven eight three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_8_4, best cost 300.614 + 16757.6 = 17058.2 over 633 frames.
+mark_7_8_4 seven eight four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_8_5, best cost 307.965 + 19809.6 = 20117.6 over 651 frames.
+mark_7_8_5 seven eight five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_8_6, best cost 285.017 + 17706.2 = 17991.2 over 646 frames.
+mark_7_8_6 seven eight six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_8_9, best cost 297.955 + 18438.8 = 18736.8 over 633 frames.
+mark_7_8_9 seven eight nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_9_1, best cost 309.936 + 19377.5 = 19687.5 over 620 frames.
+mark_7_9_1 seven nine one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_9_2, best cost 293.252 + 24514.4 = 24807.6 over 625 frames.
+mark_7_9_2 seven nine two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_9_3, best cost 322.289 + 22491.4 = 22813.7 over 638 frames.
+mark_7_9_3 seven nine three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_9_4, best cost 304.892 + 20797.3 = 21102.2 over 614 frames.
+mark_7_9_4 seven nine four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_9_5, best cost 313.466 + 22467.6 = 22781.1 over 633 frames.
+mark_7_9_5 seven nine five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_9_6, best cost 289.566 + 20178.5 = 20468 over 628 frames.
+mark_7_9_6 seven nine six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_7_9_8, best cost 298.584 + 21388.1 = 21686.7 over 633 frames.
+mark_7_9_8 seven nine eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_1_2, best cost 293.923 + 15623.4 = 15917.3 over 620 frames.
+mark_8_1_2 eight one two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_1_3, best cost 323.472 + 14134 = 14457.4 over 633 frames.
+mark_8_1_3 eight one three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_1_4, best cost 306.709 + 11447 = 11753.7 over 609 frames.
+mark_8_1_4 eight one four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_1_5, best cost 313.927 + 15091.9 = 15405.8 over 628 frames.
+mark_8_1_5 eight one five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_1_6, best cost 289.93 + 11567.9 = 11857.9 over 622 frames.
+mark_8_1_6 eight one six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_1_7, best cost 321.06 + 12273.4 = 12594.5 over 638 frames.
+mark_8_1_7 eight one seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_1_9, best cost 303.583 + 13242.6 = 13546.1 over 609 frames.
+mark_8_1_9 eight one nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_2_1, best cost 297.177 + 15801.8 = 16099 over 620 frames.
+mark_8_2_1 eight two one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_2_3, best cost 309.53 + 18807.8 = 19117.3 over 638 frames.
+mark_8_2_3 eight two three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_2_4, best cost 292.133 + 17248.3 = 17540.5 over 614 frames.
+mark_8_2_4 eight two four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_2_5, best cost 300.573 + 19848.7 = 20149.3 over 633 frames.
+mark_8_2_5 eight two five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_2_6, best cost 276.792 + 16714.8 = 16991.6 over 628 frames.
+mark_8_2_6 eight two six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_2_7, best cost 308.114 + 20572.7 = 20880.8 over 643 frames.
+mark_8_2_7 eight two seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_2_9, best cost 289.933 + 17577.9 = 17867.8 over 614 frames.
+mark_8_2_9 eight two nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_3_1, best cost 326.381 + 15328.2 = 15654.6 over 633 frames.
+mark_8_3_1 eight three one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_3_2, best cost 327.124 + 20211.1 = 20538.2 over 638 frames.
+mark_8_3_2 eight three two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_3_4, best cost 322.164 + 16773.6 = 17095.8 over 628 frames.
+mark_8_3_4 eight three four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_3_5, best cost 347.111 + 18983.9 = 19331 over 646 frames.
+mark_8_3_5 eight three five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_3_6, best cost 305.868 + 16890.9 = 17196.7 over 641 frames.
+mark_8_3_6 eight three six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_3_7, best cost 337.193 + 22279.1 = 22616.2 over 656 frames.
+mark_8_3_7 eight three seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_3_9, best cost 336.84 + 17919.9 = 18256.8 over 628 frames.
+mark_8_3_9 eight three nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_4_1, best cost 305.507 + 9587.63 = 9893.14 over 609 frames.
+mark_8_4_1 eight four one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_4_2, best cost 291.489 + 11082.5 = 11374 over 614 frames.
+mark_8_4_2 eight four two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_4_3, best cost 321.208 + 11378.8 = 11700 over 628 frames.
+mark_8_4_3 eight four three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_4_5, best cost 310.74 + 12556.1 = 12866.9 over 622 frames.
+mark_8_4_5 eight four five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_4_6, best cost 288.091 + 9537.11 = 9825.2 over 617 frames.
+mark_8_4_6 eight four six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_4_7, best cost 319.246 + 10321.6 = 10640.9 over 633 frames.
+mark_8_4_7 eight four seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_4_9, best cost 302.322 + 10653.6 = 10955.9 over 604 frames.
+mark_8_4_9 eight four nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_5_1, best cost 314.561 + 15864.8 = 16179.4 over 628 frames.
+mark_8_5_1 eight five one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_5_2, best cost 316.908 + 20991.7 = 21308.6 over 633 frames.
+mark_8_5_2 eight five two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_5_3, best cost 328.924 + 19403 = 19731.9 over 646 frames.
+mark_8_5_3 eight five three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_5_4, best cost 312.155 + 15658.2 = 15970.3 over 622 frames.
+mark_8_5_4 eight five four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_5_6, best cost 295.34 + 15505.7 = 15801.1 over 635 frames.
+mark_8_5_6 eight five six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_5_7, best cost 326.3 + 16693.8 = 17020.1 over 651 frames.
+mark_8_5_7 eight five seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_5_9, best cost 327.747 + 17072.1 = 17399.8 over 622 frames.
+mark_8_5_9 eight five nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_6_1, best cost 308.579 + 10642.1 = 10950.7 over 622 frames.
+mark_8_6_1 eight six one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_6_2, best cost 295.177 + 12368.6 = 12663.8 over 628 frames.
+mark_8_6_2 eight six two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_6_3, best cost 324.308 + 12515.2 = 12839.5 over 641 frames.
+mark_8_6_3 eight six three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_6_4, best cost 306.788 + 9666.64 = 9973.42 over 617 frames.
+mark_8_6_4 eight six four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_6_5, best cost 313.84 + 13751.9 = 14065.7 over 635 frames.
+mark_8_6_5 eight six five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_6_7, best cost 322.333 + 10690.2 = 11012.5 over 646 frames.
+mark_8_6_7 eight six seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_6_9, best cost 304.169 + 11608.2 = 11912.3 over 617 frames.
+mark_8_6_9 eight six nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_7_1, best cost 321.051 + 10679.6 = 11000.7 over 638 frames.
+mark_8_7_1 eight seven one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_7_2, best cost 307.34 + 13258.6 = 13565.9 over 643 frames.
+mark_8_7_2 eight seven two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_7_3, best cost 336.563 + 12775.3 = 13111.9 over 656 frames.
+mark_8_7_3 eight seven three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_7_4, best cost 319.233 + 11777 = 12096.2 over 633 frames.
+mark_8_7_4 eight seven four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_7_5, best cost 326.553 + 14284.4 = 14610.9 over 651 frames.
+mark_8_7_5 eight seven five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_7_6, best cost 303.609 + 12373.1 = 12676.7 over 646 frames.
+mark_8_7_6 eight seven six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_7_9, best cost 316.654 + 13474.9 = 13791.5 over 633 frames.
+mark_8_7_9 eight seven nine 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_9_1, best cost 302.847 + 11249.8 = 11552.7 over 609 frames.
+mark_8_9_1 eight nine one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_9_2, best cost 288.83 + 12880.6 = 13169.5 over 614 frames.
+mark_8_9_2 eight nine two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_9_3, best cost 318.549 + 13920.1 = 14238.6 over 628 frames.
+mark_8_9_3 eight nine three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_9_4, best cost 301.029 + 11112.2 = 11413.2 over 604 frames.
+mark_8_9_4 eight nine four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_9_5, best cost 308.081 + 14141.9 = 14450 over 622 frames.
+mark_8_9_5 eight nine five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_9_6, best cost 285.46 + 11599.9 = 11885.4 over 617 frames.
+mark_8_9_6 eight nine six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_8_9_7, best cost 316.574 + 11394 = 11710.6 over 633 frames.
+mark_8_9_7 eight nine seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_1_2, best cost 299.158 + 12709.7 = 13008.9 over 601 frames.
+mark_9_1_2 nine one two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_1_3, best cost 328.688 + 12564.2 = 12892.9 over 614 frames.
+mark_9_1_3 nine one three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_1_4, best cost 311.358 + 9720.84 = 10032.2 over 591 frames.
+mark_9_1_4 nine one four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_1_5, best cost 318.709 + 13778.1 = 14096.8 over 609 frames.
+mark_9_1_5 nine one five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_1_6, best cost 295.733 + 10556.9 = 10852.6 over 604 frames.
+mark_9_1_6 nine one six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_1_7, best cost 326.871 + 11829.1 = 12156 over 620 frames.
+mark_9_1_7 nine one seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_1_8, best cost 281.254 + 10345.6 = 10626.9 over 609 frames.
+mark_9_1_8 nine one eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_2_1, best cost 301.322 + 14484.6 = 14785.9 over 601 frames.
+mark_9_2_1 nine two one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_2_3, best cost 315.299 + 16998.8 = 17314.1 over 620 frames.
+mark_9_2_3 nine two three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_2_4, best cost 298.982 + 14488.6 = 14787.5 over 596 frames.
+mark_9_2_4 nine two four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_2_5, best cost 306.01 + 18365.7 = 18671.7 over 614 frames.
+mark_9_2_5 nine two five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_2_6, best cost 282.247 + 14798 = 15080.3 over 609 frames.
+mark_9_2_6 nine two six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_2_7, best cost 313.283 + 15629.6 = 15942.8 over 625 frames.
+mark_9_2_7 nine two seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_2_8, best cost 267.766 + 15911.9 = 16179.7 over 614 frames.
+mark_9_2_8 nine two eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_3_1, best cost 330.514 + 14647.1 = 14977.6 over 614 frames.
+mark_9_3_1 nine three one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_3_2, best cost 332.927 + 19080.5 = 19413.4 over 620 frames.
+mark_9_3_2 nine three two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_3_4, best cost 328.285 + 14775.8 = 15104.1 over 609 frames.
+mark_9_3_4 nine three four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_3_5, best cost 352.93 + 18854 = 19207 over 628 frames.
+mark_9_3_5 nine three five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_3_6, best cost 311.39 + 14997.2 = 15308.5 over 622 frames.
+mark_9_3_6 nine three six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_3_7, best cost 342.43 + 15841.5 = 16183.9 over 638 frames.
+mark_9_3_7 nine three seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_3_8, best cost 320.825 + 16036.8 = 16357.6 over 628 frames.
+mark_9_3_8 nine three eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_4_1, best cost 311.358 + 12210.3 = 12521.7 over 591 frames.
+mark_9_4_1 nine four one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_4_2, best cost 297.678 + 14698 = 14995.7 over 596 frames.
+mark_9_4_2 nine four two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_4_3, best cost 326.87 + 15452 = 15778.9 over 609 frames.
+mark_9_4_3 nine four three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_4_5, best cost 316.891 + 15493.9 = 15810.8 over 604 frames.
+mark_9_4_5 nine four five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_4_6, best cost 293.997 + 14247.3 = 14541.3 over 599 frames.
+mark_9_4_6 nine four six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_4_7, best cost 324.876 + 15837.9 = 16162.8 over 614 frames.
+mark_9_4_7 nine four seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_4_8, best cost 279.436 + 13621.7 = 13901.1 over 604 frames.
+mark_9_4_8 nine four eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_5_1, best cost 318.811 + 14983.1 = 15302 over 609 frames.
+mark_9_5_1 nine five one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_5_2, best cost 322.443 + 16947.5 = 17270 over 614 frames.
+mark_9_5_2 nine five two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_5_3, best cost 334.512 + 17360.4 = 17694.9 over 628 frames.
+mark_9_5_3 nine five three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_5_4, best cost 316.992 + 14209.4 = 14526.4 over 604 frames.
+mark_9_5_4 nine five four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_5_6, best cost 301.332 + 14828.9 = 15130.2 over 617 frames.
+mark_9_5_6 nine five six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_5_7, best cost 332.442 + 15397 = 15729.5 over 633 frames.
+mark_9_5_7 nine five seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_5_8, best cost 286.901 + 14928.4 = 15215.3 over 622 frames.
+mark_9_5_8 nine five eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_6_1, best cost 314.43 + 11476.4 = 11790.8 over 604 frames.
+mark_9_6_1 nine six one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_6_2, best cost 300.467 + 14472.1 = 14772.6 over 609 frames.
+mark_9_6_2 nine six two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_6_3, best cost 329.97 + 14456.6 = 14786.6 over 622 frames.
+mark_9_6_3 nine six three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_6_4, best cost 312.639 + 12805 = 13117.7 over 599 frames.
+mark_9_6_4 nine six four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_6_5, best cost 319.991 + 15576.8 = 15896.8 over 617 frames.
+mark_9_6_5 nine six five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_6_7, best cost 328.125 + 14236.4 = 14564.6 over 628 frames.
+mark_9_6_7 nine six seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_6_8, best cost 282.536 + 12567.4 = 12850 over 617 frames.
+mark_9_6_8 nine six eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_7_1, best cost 330.124 + 17229 = 17559.1 over 620 frames.
+mark_9_7_1 nine seven one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_7_2, best cost 313.551 + 22812.3 = 23125.8 over 625 frames.
+mark_9_7_2 nine seven two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_7_3, best cost 342.572 + 19636.9 = 19979.4 over 638 frames.
+mark_9_7_3 nine seven three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_7_4, best cost 325.112 + 18102.8 = 18427.9 over 614 frames.
+mark_9_7_4 nine seven four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_7_5, best cost 333.521 + 20312 = 20645.5 over 633 frames.
+mark_9_7_5 nine seven five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_7_6, best cost 309.868 + 17826 = 18135.8 over 628 frames.
+mark_9_7_6 nine seven six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_7_8, best cost 318.803 + 19167.8 = 19486.6 over 633 frames.
+mark_9_7_8 nine seven eight 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_8_1, best cost 302.847 + 11175.4 = 11478.3 over 609 frames.
+mark_9_8_1 nine eight one 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_8_2, best cost 288.83 + 13238.5 = 13527.3 over 614 frames.
+mark_9_8_2 nine eight two 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_8_3, best cost 318.549 + 13590.6 = 13909.2 over 628 frames.
+mark_9_8_3 nine eight three 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_8_4, best cost 301.029 + 10853 = 11154 over 604 frames.
+mark_9_8_4 nine eight four 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_8_5, best cost 308.081 + 14142.1 = 14450.2 over 622 frames.
+mark_9_8_5 nine eight five 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_8_6, best cost 285.432 + 11355.6 = 11641 over 617 frames.
+mark_9_8_6 nine eight six 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance mark_9_8_7, best cost 316.542 + 11885 = 12201.5 over 633 frames.
+mark_9_8_7 nine eight seven 
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall cost per frame is 26.0501 = 0.504079 [graph] + 25.546 [acoustic] over 314958 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 504 lattices, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Fri May  6 00:10:22 MSK 2016, elapsed time 1 seconds

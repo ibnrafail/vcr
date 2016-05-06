@@ -1,0 +1,18 @@
+# gmm-init-model --write-occs=exp/tri1/1.occs exp/tri1/tree exp/tri1/treeacc data/lang/topo exp/tri1/1.mdl 
+# Started at Thu May  5 23:34:15 MSK 2016
+#
+gmm-init-model --write-occs=exp/tri1/1.occs exp/tri1/tree exp/tri1/treeacc data/lang/topo exp/tri1/1.mdl 
+LOG (gmm-init-model:main():gmm-init-model.cc:271) Number of separate statistics is 125
+WARNING (gmm-init-model:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 1 with no stats; corresponding phone list: 6 7 8 9 10 
+WARNING (gmm-init-model:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 13 with no stats; corresponding phone list: 55 56 57 58 
+WARNING (gmm-init-model:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 21 with no stats; corresponding phone list: 87 88 89 90 
+WARNING (gmm-init-model:InitAmGmm():gmm-init-model.cc:83) Very small count for state 95: 52; corresponding phone list: 75 76 77 78 
+WARNING (gmm-init-model:InitAmGmm():gmm-init-model.cc:83) Very small count for state 107: 96; corresponding phone list: 67 68 69 70 
+WARNING (gmm-init-model:InitAmGmm():gmm-init-model.cc:83) Very small count for state 111: 96; corresponding phone list: 67 68 69 70 
+WARNING (gmm-init-model:InitAmGmm():gmm-init-model.cc:83) Very small count for state 113: 67; corresponding phone list: 59 60 61 62 
+WARNING (gmm-init-model:InitAmGmm():gmm-init-model.cc:83) Very small count for state 114: 56; corresponding phone list: 59 60 61 62 
+WARNING (gmm-init-model:InitAmGmm():gmm-init-model.cc:83) Very small count for state 119: 32; corresponding phone list: 67 68 69 70 
+WARNING (gmm-init-model:InitAmGmm():gmm-init-model.cc:83) Very small count for state 120: 42; corresponding phone list: 75 76 77 78 
+LOG (gmm-init-model:main():gmm-init-model.cc:306) Wrote model.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu May  5 23:34:15 MSK 2016, elapsed time 0 seconds

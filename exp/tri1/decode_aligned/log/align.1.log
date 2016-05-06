@@ -1,0 +1,7 @@
+# lattice-align-words --silence-label=1 --test=true data/lang/phones/word_boundary.int exp/tri1/final.mdl "ark:gunzip -c exp/tri1/decode/lat.1.gz|" "ark,t:|gzip -c >exp/tri1/decode_aligned/lat.1.gz" 
+# Started at Fri May  6 00:10:23 MSK 2016
+#
+lattice-align-words --silence-label=1 --test=true data/lang/phones/word_boundary.int exp/tri1/final.mdl 'ark:gunzip -c exp/tri1/decode/lat.1.gz|' 'ark,t:|gzip -c >exp/tri1/decode_aligned/lat.1.gz' 
+LOG (lattice-align-words:main():lattice-align-words.cc:125) Successfully aligned 504 lattices; 0 had errors.
+# Accounting: time=4 threads=1
+# Ended (code 0) at Fri May  6 00:10:27 MSK 2016, elapsed time 4 seconds
