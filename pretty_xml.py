@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 from xml.etree import ElementTree
 from xml.dom import minidom
 

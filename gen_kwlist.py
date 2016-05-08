@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 import sys
 from xml.etree.ElementTree import Element, SubElement, Comment, tostring
 from pretty_xml import prettify

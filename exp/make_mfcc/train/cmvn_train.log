@@ -1,2 +1,0 @@
-compute-cmvn-stats --spk2utt=ark:data/train/spk2utt scp:data/train/feats.scp ark,scp:/home/iskandar/Desktop/kaldi/kaldi-trunk/egs/digits_new/mfcc/cmvn_train.ark,/home/iskandar/Desktop/kaldi/kaldi-trunk/egs/digits_new/mfcc/cmvn_train.scp 
-LOG (compute-cmvn-stats:main():compute-cmvn-stats.cc:171) Done accumulating CMVN stats for 2016 utterances; 0 had errors.

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 import sys
 import os
 import time
@@ -28,7 +28,7 @@ keywords.close()
 print("Keyword ids created.\n")
 
 print("2. run compile_keywords_to_fsts.sh")
-bashCommand = "sh compile_keywords_to_fsts.sh " + langdir + " " + kwsdatadir
+bashCommand = "sh /home/iskandar/Desktop/kaldi/kaldi-trunk/egs/digits_new/local/compile_keywords_to_fsts.sh " + langdir + " " + kwsdatadir
 retval = os.system(bashCommand)
 time.sleep(1)
 print("Returned: " + str(retval) + "\n")
