@@ -140,3 +140,82 @@ echo
 # words, with boundaries in the right place).
 sil_label=`grep '!SIL' data/lang/words.txt | awk '{print $2}'`
 steps/word_align_lattices.sh --cmd "$train_cmd" --silence-label $sil_label data/lang exp/tri1/decode exp/tri1/decode_aligned || exit 1;
+
+#echo
+#echo "===== TRI1 ALIGNMENT =====" 
+#echo
+#steps/align_si.sh --nj $nj --cmd "$train_cmd" data/train data/lang exp/tri1 exp/tri1_ali || exit 1;
+
+#echo
+#echo "===== TRI2 TRAINING ====="
+#echo
+# Train tri2, which is deltas + delta-deltas
+#steps/train_deltas.sh --cmd "$train_cmd" 2500 15000 data/train data/lang exp/tri1_ali exp/tri2 || exit 1;
+
+#echo
+#echo "===== TRI2 DECODING ====="
+#echo
+#utils/mkgraph.sh data/lang exp/tri2a exp/tri2/graph || exit 1;
+#steps/decode.sh --nj 1 --cmd "$decode_cmd" exp/tri2/graph data/test exp/tri2/decode || exit 1;
+
+#echo
+#echo "===== TRI2b TRAINING ====="
+#echo
+#steps/train_lda_mllt.sh --cmd "$train_cmd" --splice-opts "--left-context=3 --right-context=3" 2500 15000 data/train data/lang exp/tri1_ali exp/tri2b || exit 1;
+
+#echo
+#echo "===== TRI2b DECODING ====="
+#echo
+#utils/mkgraph.sh data/lang exp/tri2b exp/tri2b/graph || exit 1;
+#steps/decode.sh --nj 1 --cmd "$decode_cmd" exp/tri2b/graph data/test exp/tri2b/decode || exit 1;
+
+#echo
+#echo "===== TRI2b ALIGNMENT =====" 
+#echo
+# Align tri2b system.
+#steps/align_si.sh  --nj $nj --cmd "$train_cmd" --use-graphs true data/train data/lang exp/tri2b exp/tri2b_ali  || exit 1;
+
+#echo
+#echo "===== TRI3b TRAINING ====="
+#echo
+# From 2b system, train 3b which is LDA + MLLT + SAT.
+#steps/train_sat.sh --cmd "$train_cmd" 2500 15000 data/train data/lang exp/tri2b_ali exp/tri3b || exit 1;
+#echo
+#echo "===== TRI3b DECODING ====="
+#echo
+#utils/mkgraph.sh data/lang exp/tri3b exp/tri3b/graph || exit 1;
+#steps/decode_fmllr.sh --nj 1 --cmd "$decode_cmd" exp/tri3b/graph data/test exp/tri3b/decode || exit 1;
+
+#echo
+#echo "===== TRI3b ALIGNMENT =====" 
+#echo
+# From 3b system, align all data.
+#steps/align_fmllr.sh --nj $nj --cmd "$train_cmd" data/train data/lang exp/tri3b exp/tri3b_ali || exit 1;
+
+#echo
+#echo "===== TRI4a TRAINING ====="
+#echo
+# From 3b system, train another SAT system (tri4a).
+#steps/train_sat.sh  --cmd "$train_cmd" 4200 40000 data/train data/lang exp/tri3b_ali exp/tri4a || exit 1;
+#echo
+#echo "===== TRI4a DECODING ====="
+#echo
+#utils/mkgraph.sh data/lang exp/tri4a exp/tri4a/graph || exit 1;
+#steps/decode_fmllr.sh --nj 1 --cmd "$decode_cmd" exp/tri4a/graph data/test exp/tri4a/decode || exit 1;
+
+#echo
+#echo "===== TRI4b TRAINING ====="
+#echo
+#steps/train_quick.sh --cmd "$train_cmd" 4200 40000 data/train data/lang exp/tri3b_ali exp/tri4b || exit 1;
+#echo
+#echo "===== TRI4b DECODING ====="
+#echo
+#utils/mkgraph.sh data/lang exp/tri4b exp/tri4b/graph || exit 1;
+#steps/decode_fmllr.sh --nj 1 --cmd "$decode_cmd" exp/tri4b/graph data/test exp/tri4b/decode || exit 1;
+#echo
+#echo "===== TRI4b ALIGNMENT =====" 
+#echo
+# Train and test MMI, and boosted MMI, on tri4b (LDA+MLLT+SAT on
+# all the data).  Use 30 jobs.
+#steps/align_fmllr.sh --nj $nj --cmd "$train_cmd" data/train data/lang exp/tri4b exp/tri4b_ali || exit 1;
+
