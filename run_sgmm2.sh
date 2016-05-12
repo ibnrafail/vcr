@@ -18,7 +18,7 @@ steps/train_ubm.sh --cmd "$train_cmd" 400 data/train data/lang exp/tri4b_ali exp
 
 steps/train_sgmm2.sh --cmd "$train_cmd" 7000 9000 data/train data/lang exp/tri4b_ali exp/ubm5a/final.ubm exp/sgmm2_5a || exit 1;
 
-utils/mkgraph.sh data/lang_test_tgpr exp/sgmm2_5a exp/sgmm2_5a/graph_tgpr
+utils/mkgraph.sh data/lang_test_tgpr exp/sgmm2_5a exp/sgmm2_5a/graph
 steps/decode_sgmm2.sh --nj 1 --cmd "$decode_cmd" --transform-dir exp/tri4b/decode exp/sgmm2_5a/graph data/test exp/sgmm2_5a/decode
 
 steps/align_sgmm2.sh --nj $nj --cmd "$train_cmd" --transform-dir exp/tri4b --use-graphs true --use-gselect true data/train data/lang exp/sgmm2_5a exp/sgmm2_5a_ali || exit 1;
